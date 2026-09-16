@@ -2,75 +2,185 @@
 
 A hands-on collection of **Data Structures & Algorithms practice in Python**, built as a learning and interview-preparation repository.
 
-The goal is simple: understand the fundamentals, implement them from scratch, compare different approaches, and gradually move from brute-force solutions to more efficient ones.
+The goal is to understand the fundamentals, implement solutions from scratch, compare different approaches, analyze complexity, and gradually move from brute-force thinking to more efficient problem-solving patterns.
 
 > **Status:** 🚧 Work in Progress
 >
-> This repository will continue to evolve as new DSA topics, problems, and optimized solutions are added.
+> New problems and topics will be added as the practice journey continues.
 
-## 📌 What this repository contains
+## 📌 Problems Solved
 
-The main practice notebook currently focuses on foundational problem-solving patterns, including:
+The main notebook currently contains practice problems across **Number Theory, Hashing, Recursion, Arrays, Searching, Sorting, and Array Manipulation**.
 
-- **Number manipulation**
-  - Digit extraction
-  - Counting digits
-  - Palindrome numbers
-  - Armstrong numbers
-  - Factor generation
-- **Hashing and frequency counting**
-  - Frequency maps / dictionaries
-  - Counting occurrences
-  - Using hashing to improve repeated lookups
-- **Approach comparison**
-  - Brute-force solutions
-  - Alternative implementations
-  - More optimized approaches
-  - Time and space complexity analysis
+### 🔢 Number & Basic Problem Solving
 
-The repository is structured as a growing notebook rather than a fixed problem set, so new concepts and patterns will be added progressively.
+- Extract the digits of a number
+- Count the number of digits
+- Check whether a number is a palindrome
+- Check whether a number is an Armstrong number
+- Print all factors of a number
 
-## 🧠 Learning approach
+### #️⃣ Hashing & Frequency Mapping
 
-For many problems, the notebook follows a practical progression:
+- Build a frequency map for elements in an array
+- Count elements of one list that occur in another list
+- Character hashing and frequency counting
+- Compare brute-force hashing approaches with dictionary-based approaches
+- Understand array hashing using constrained value ranges and ASCII-based hashing
+
+### 🔁 Recursion
+
+- Print a value multiple times using recursion
+- Understand **head recursion** and **tail recursion**
+- Print a value `N` times using recursion and parameters
+- Print numbers from `1` to `N` using different recursive approaches
+- Calculate the sum of `1` to `N` using parameterized recursion
+- Calculate the sum of `1` to `N` using functional recursion
+- Calculate factorial using functional recursion
+- Calculate factorial using parameterized recursion
+- Reverse part of an array using recursion and two pointers
+- Understand recursion, base cases, recursion flow, stack space, and backtracking
+
+### 📦 Arrays
+
+- Reverse an array
+- Reverse an array using two pointers
+- Find the largest element in an array
+- Find the second-largest element
+- Check whether an array is sorted
+- Remove duplicates from an array
+- Right rotate an array by one position
+- Right rotate an array by `K` positions
+- Move all zeroes to the end while maintaining the order of non-zero elements
+- Find the missing number in an array
+- Find the maximum number of consecutive ones
+- Solve the Two Sum problem
+- Find the maximum subarray sum
+- Solve the Best Time to Buy and Sell Stock problem
+- Rearrange array elements by sign
+
+### 🔎 Searching
+
+- Linear search
+- Compare dictionary-based lookup with straightforward linear traversal
+
+### 🔃 Sorting
+
+- Selection Sort
+- Bubble Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Compare sorting approaches and their time/space complexity
+
+### 🔀 Array Merging
+
+- Merge two sorted arrays
+- Merge using Python's built-in sorting
+- Merge and remove duplicates
+- Merge using the merge-sort concept
+- Merge using two pointers
+
+### 📈 Dynamic / Pattern-Based Problems
+
+- Fibonacci number at a given index
+- Maximum subarray sum using **Kadane's Algorithm**
+- Stock buy/sell profit using a single-pass approach
+- Array rotation using the reversal technique
+
+## 🧠 Approach Comparison
+
+A major focus of this repository is not simply solving a problem once, but understanding how different approaches behave.
+
+For several questions, multiple implementations are explored:
 
 ```text
-Understand the problem
-        ↓
-Implement a straightforward solution
-        ↓
-Analyze Time & Space Complexity
-        ↓
-Look for a better approach
-        ↓
-Compare implementations
-        ↓
-Keep the most useful pattern
+Brute Force
+     ↓
+Improved Approach
+     ↓
+Optimize Time Complexity
+     ↓
+Optimize Space Complexity
+     ↓
+Understand the Trade-offs
 ```
 
-This makes the repository useful not only for practicing DSA questions, but also for building the habit of thinking about **why one solution is better than another**.
+Examples include:
 
-## 📚 Current practice areas
-
-| Topic | Concepts Practiced |
+| Problem | Approaches Explored |
 |---|---|
-| Number Theory Basics | Digit extraction, digit counting, palindrome, Armstrong numbers, factors |
-| Hashing | Frequency maps, dictionaries, repeated lookups |
-| Complexity Analysis | Big-O reasoning for different implementations |
-| Problem Solving | Brute force → improved → optimized thinking |
+| Counting digits | Loop, list-based approach, `log10` |
+| Armstrong number | List-based, accumulator-based |
+| Factors | Brute force, `sqrt(n)` approach |
+| Frequency counting | Nested loops, frequency array, dictionary |
+| Character hashing | Brute force, dictionary, ASCII indexing |
+| Array reversal | Extra list, two pointers, recursion |
+| String palindrome | Slicing, loop, two pointers, comparison, recursion |
+| Fibonacci | Iterative array, recursion |
+| Sorting | Selection, Bubble, Insertion, Merge, Quick Sort |
+| Second largest | Sorting, two-pass, single-pass |
+| Remove duplicates | Brute force, frequency mapping, two pointers |
+| Array rotation | Indexing, repeated rotation, slicing, reversal |
+| Move zeroes | Extra list, in-place approaches, single pass |
+| Missing number | Brute force, frequency mapping, sum comparison |
+| Two Sum | Hash map, brute force |
+| Maximum subarray | Brute force, optimized nested loop, Kadane's Algorithm |
+| Stock profit | Brute force, optimized nested loop, single pass |
+| Merge sorted arrays | Sorting, merge-sort concept, two pointers |
 
-## 📂 Repository structure
+## ⏱️ Complexity Analysis
+
+Time and space complexity are documented throughout the notebook wherever different approaches are compared.
+
+Some of the complexity patterns explored include:
+
+- `O(1)` constant-time operations
+- `O(n)` linear traversal
+- `O(log n)` / logarithmic-style operations
+- `O(n log n)` sorting and divide-and-conquer patterns
+- `O(n²)` nested-loop approaches
+- `O(n³)` brute-force subarray approaches
+- Recursive stack-space analysis
+
+The purpose is to build the habit of asking:
+
+> **Can this solution be made faster or use less memory?**
+
+## 📚 Current DSA Roadmap
+
+```text
+✅ Number Basics
+✅ Hashing
+✅ Recursion Fundamentals
+✅ Arrays
+✅ Searching
+✅ Sorting
+🚧 Binary Search
+🚧 Linked Lists
+🚧 Stack & Queue
+🚧 Strings - Advanced Patterns
+🚧 Trees & Binary Search Trees
+🚧 Heaps & Priority Queues
+🚧 Graphs
+🚧 Greedy Algorithms
+🚧 Backtracking
+🚧 Dynamic Programming
+🚧 Advanced DSA Patterns
+```
+
+## 📂 Repository Structure
 
 ```text
 DSA-practice-beginner-advanced/
 │
-├── DSA Practice.ipynb     # Main DSA practice notebook
-├── rough.ipynb             # Scratch work / experimentation
-├── README.md               # Repository documentation
-└── .ipynb_checkpoints/     # Jupyter-generated checkpoints
+├── DSA Practice.ipynb      # Main DSA practice notebook
+├── rough.ipynb              # Scratch work / experimentation
+├── README.md                # Repository documentation
+└── .ipynb_checkpoints/      # Jupyter-generated checkpoints
 ```
 
-## 🚀 Getting started
+## 🚀 Getting Started
 
 ### 1. Clone the repository
 
@@ -91,51 +201,32 @@ pip install notebook
 jupyter notebook
 ```
 
-Open **`DSA Practice.ipynb`** and run the cells to explore the implementations.
+Open **`DSA Practice.ipynb`** and run the cells to explore the problems and solutions.
 
-## 🛠️ Tech stack
+## 🛠️ Tech Stack
 
-- **Python 3**
+- **Python 3.9**
 - **Jupyter Notebook**
-- Python standard library modules such as `math`
+- Python Standard Library
 
-## 🎯 Goals for this repository
+## 🎯 Learning Goals
 
-The long-term objective is to build a structured DSA reference that progresses from fundamentals to more advanced topics, while keeping the implementations understandable and interview-oriented.
-
-Planned areas include:
-
-- Arrays and Strings
-- Searching and Sorting
-- Recursion and Backtracking
-- Linked Lists
-- Stack and Queue
-- Hashing
-- Trees and Binary Search Trees
-- Heaps and Priority Queues
-- Graphs
-- Greedy Algorithms
-- Dynamic Programming
-- Advanced problem-solving patterns
-
-## 📈 What I am focusing on
-
-Rather than only collecting solutions, this repository is focused on developing a repeatable problem-solving mindset:
+This repository is being built around four principles:
 
 **Solve → Analyze → Optimize → Practice**
 
-The emphasis is on understanding the underlying logic and trade-offs so that the same patterns can be applied to new problems.
+The aim is to develop strong fundamentals rather than simply memorizing solutions. Each new problem is an opportunity to understand the underlying pattern, identify alternative approaches, and reason about their complexity.
 
 ## 🤝 Contributions
 
-This is primarily a personal learning repository, but suggestions, corrections, and better approaches are always welcome.
+This is primarily a personal DSA learning repository, but suggestions, corrections, alternative solutions, and improvements are welcome.
 
-Feel free to open an issue or submit a pull request with improvements, alternative solutions, or useful explanations.
+Feel free to open an issue or submit a pull request with a better approach or explanation.
 
 ## ⭐ About
 
-This repository is part of my ongoing journey to strengthen **DSA, problem-solving, and Python skills** for technical interviews and real-world software engineering.
+This repository is part of my ongoing effort to strengthen **Python, DSA, algorithmic thinking, and technical interview problem-solving skills**.
 
 ---
 
-**Keep solving. Keep optimizing. Keep learning.**
+**Keep solving. Keep analyzing. Keep optimizing.**
