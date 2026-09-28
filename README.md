@@ -10,7 +10,7 @@ The goal is to understand the fundamentals, implement solutions from scratch, co
 
 ## 📌 Problems Solved
 
-The main notebook currently contains practice problems across **Number Theory, Hashing, Recursion, Arrays, Searching, Sorting, and Array Manipulation**.
+The main notebook currently contains practice problems across **Number Theory, Hashing, Recursion, Arrays, Searching, Sorting, Matrices, and common interview problem-solving patterns**.
 
 ### 🔢 Number & Basic Problem Solving
 
@@ -58,6 +58,7 @@ The main notebook currently contains practice problems across **Number Theory, H
 - Find the maximum subarray sum
 - Solve the Best Time to Buy and Sell Stock problem
 - Rearrange array elements by sign
+- Find the longest consecutive subsequence
 
 ### 🔎 Searching
 
@@ -73,6 +74,32 @@ The main notebook currently contains practice problems across **Number Theory, H
 - Quick Sort
 - Compare sorting approaches and their time/space complexity
 
+### ➕ 3Sum & 4Sum
+
+- **3Sum:** Find triplets whose sum is `0`
+  - Brute force
+  - Optimized nested-loop approach
+  - Set-based approach
+  - Two-pointer optimized approach
+- **4Sum:** Find quadruplets whose sum is `0`
+  - Brute force
+  - Set-based optimization
+
+### 🔲 Matrices
+
+- Understand 2-D matrices / nested lists
+- Determine matrix dimensions
+- Iterate through a matrix
+- Calculate the sum of matrix elements
+- Print the upper triangle of a matrix
+- Print the main diagonal
+- Print the inverse diagonal
+- Transpose a matrix
+- Transpose a non-square matrix using a structured approach
+- Set Matrix Zeroes
+- Rotate a matrix by `90°`
+- Print a matrix in spiral order
+
 ### 🔀 Array Merging
 
 - Merge two sorted arrays
@@ -87,6 +114,8 @@ The main notebook currently contains practice problems across **Number Theory, H
 - Maximum subarray sum using **Kadane's Algorithm**
 - Stock buy/sell profit using a single-pass approach
 - Array rotation using the reversal technique
+- 3Sum and 4Sum problem-solving patterns
+- Matrix traversal, transformation, and rotation patterns
 
 ## 🧠 Approach Comparison
 
@@ -128,6 +157,13 @@ Examples include:
 | Maximum subarray | Brute force, optimized nested loop, Kadane's Algorithm |
 | Stock profit | Brute force, optimized nested loop, single pass |
 | Merge sorted arrays | Sorting, merge-sort concept, two pointers |
+| Rearrange by sign | Brute force, improved, two-pointer approaches |
+| Longest consecutive sequence | Brute force, sorting, set |
+| Matrix transpose | In-place square matrix, structured non-square approach |
+| Set Matrix Zeroes | Brute force, row/column tracking |
+| Rotate Matrix | Extra matrix, transpose + reverse |
+| 3Sum | Brute force, optimized loops, sets, two pointers |
+| 4Sum | Brute force, set-based optimization |
 
 ## ⏱️ Complexity Analysis
 
@@ -156,6 +192,9 @@ The purpose is to build the habit of asking:
 ✅ Arrays
 ✅ Searching
 ✅ Sorting
+✅ Matrix Basics & Problems
+✅ Two-Pointer Techniques
+✅ 3Sum / 4Sum
 🚧 Binary Search
 🚧 Linked Lists
 🚧 Stack & Queue
@@ -208,6 +247,10 @@ Open **`DSA Practice.ipynb`** and run the cells to explore the problems and solu
 - **Python 3.9**
 - **Jupyter Notebook**
 - Python Standard Library
+
+## 🔗 Practice Profile
+
+- [LeetCode](https://leetcode.com/u/ay_an117/)
 
 ## 🎯 Learning Goals
 
